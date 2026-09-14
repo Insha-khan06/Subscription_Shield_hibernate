@@ -132,7 +132,7 @@ public class Main {
         System.out.println("====================================");
     }
 
-    // --- Category Functionality ---
+    // Category Functionality 
 
     private static void addCategory() {
         System.out.println("--- Add Category ---");
@@ -168,7 +168,7 @@ public class Main {
         }
     }
 
-    // --- Subscription Functionality ---
+    // Subscription Functionality 
 
     private static void addSubscription() {
         System.out.println("--- Add Subscription ---");
@@ -324,7 +324,7 @@ public class Main {
         }
     }
 
-    // --- Payment Functionality ---
+    //  Payment Functionality 
 
     private static void addPayment() {
         System.out.println("--- Add Payment ---");
@@ -379,7 +379,7 @@ public class Main {
         }
     }
 
-    // --- Reminder Functionality ---
+    //  Reminder Functionality 
 
     private static void addReminder() {
         System.out.println("--- Add Reminder ---");
@@ -424,7 +424,7 @@ public class Main {
         }
     }
 
-    // --- Expense Tracking ---
+    // Expense Tracking 
 
     private static void viewMonthlySpending() {
         BigDecimal monthly = subscriptionService.getMonthlySpending();
@@ -448,7 +448,7 @@ public class Main {
         viewMonthlySpending();
     }
 
-    // --- Upcoming Renewals & Leak Detection ---
+    //  Upcoming Renewals & Leak Detection 
 
     private static void viewUpcomingRenewals() {
         System.out.println("====================================");
@@ -472,7 +472,7 @@ public class Main {
     }
 
     /**
-     * Rule-based Subscription Leak Detection Logic
+     Rule-based Subscription Leak Detection Logic
      */
     private static void checkSubscriptionLeaks() {
         System.out.println("--- SUBSCRIPTION SHIELD ANALYSIS ---");
@@ -581,7 +581,7 @@ public class Main {
         }
     }
 
-    // --- Input Helper Methods ---
+    //  Input Helper Methods 
 
     private static String readStringInput(String prompt) {
         System.out.print(prompt);
